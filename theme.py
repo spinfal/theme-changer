@@ -25,4 +25,4 @@ while True:
             t.sleep(int(delay))
             sys.exit('ended script')
         print(str(res.status_code) + ' - ' + x)
-        t.sleep(2)
+        t.sleep(int(delay))
