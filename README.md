@@ -1,6 +1,6 @@
 # theme-changer
 
-a tool that will spam change, or just change your discord theme automatically.
+a tool that will spam change, or just change your discord theme automatically, putting too low of a delay might trigger discord's anti-abuse measures
 
 ## installation
 
