@@ -21,8 +21,8 @@ while True:
 
         res = r.patch('https://discord.com/api/v8/users/@me/settings', headers=headers, json=json)
         if res.status_code != 200:
-            print(str(res.status_code) + ' - ' + 'an error has occured, maybe try again with a new token?')
+            print(f'{res.status_code} - an error has occured, maybe try again with a new token?')
             t.sleep(int(delay))
             sys.exit('ended script')
-        print(str(res.status_code) + ' - ' + x)
+        print(f'{res.status_code} - {x}')
         t.sleep(int(delay))
